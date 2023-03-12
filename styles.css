@@ -24,10 +24,35 @@ body {
 
 #cred-text {
     color: white;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    background-color: rgba(0, 0, 0, 0.5);
     position: absolute;
-    background-color: rgba(0, 0, 0, 0.6);
-    bottom: -0.4vh;
-    left: 25%;
+    text-align: center;
+    width: 100%;
+    bottom: 0.5%;
+    font-size: 1rem;
+}
+
+#logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 55vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 18%;
+}
+
+#logo-img {
+    height: 7vmax;
+}
+
+#logo-text {
+    font-size: 6vmax;
+    font-family: "Tilt Warp";
+    color: white;
 }
 
 a {
