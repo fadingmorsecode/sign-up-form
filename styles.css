@@ -74,7 +74,9 @@ body {
 }
 
 #info-text-1,
-#info-text-2 {
+#info-text-2,
+#submit-btn,
+#submit-btn+p {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
@@ -100,6 +102,35 @@ body {
 #account-container {
     height: 25vh;
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 2rem;
+    margin-left: 3rem;
+}
+
+#submit-btn {
+    border-radius: 5px;
+    border-style: none;
+    color: white;
+    background-color: #0047ab;
+    font-size: 0.9rem;
+    font-weight: bold;
+    width: 12vw;
+    height: 5vh;
+}
+
+#submit-btn:hover {
+    box-shadow: 0px 3px 5px gray;
+}
+
+#login-primary {
+    font-size: 1rem;
+}
+
+#login-secondary {
+    color: #0047ab;
+    text-decoration: none;
 }
 
 a {
