@@ -7,6 +7,7 @@ body {
     overscroll-behavior: contain;
 }
 
+/* Background Section Begins Here */
 #main-left {
     position: relative;
 }
@@ -57,6 +58,8 @@ body {
     color: white;
 }
 
+/* Info Section Begins Here */
+
 #info-container {
     height: 30vh;
     width: 100%;
@@ -92,12 +95,16 @@ body {
     font-size: 1.5rem;
 }
 
+/* Form Section Begins Here */
+
 #form-container {
     background-color: #ffffff;
     height: 45vh;
     width: 100%;
     box-shadow: 0px 8px 10px gray;
 }
+
+/* Account Section Begins Here */
 
 #account-container {
     height: 25vh;
