@@ -1,1 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap');
+
+body {
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+#main-right {
+    width: 65vw;
+    height: 100vh;
+    background-color: #fbd1a2;
+}
+
+#bg-img {
+    width: 35vw;
+    height: 100vh;
+}
