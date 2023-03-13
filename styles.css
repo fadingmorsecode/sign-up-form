@@ -205,6 +205,16 @@ label {
     text-decoration: none;
 }
 
+.error {
+    color: red;
+    font-family: 'Oswald', sans-serif;
+    font-size: 0.9rem;
+}
+
+.error-border {
+    border: solid red 2px;
+}
+
 a {
     color: inherit;
 }

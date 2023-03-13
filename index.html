@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign-up Form</title>
     <link href="styles.css" rel="stylesheet">
+    <script src="script.js" defer></script>
 </head>
 
 <body>
@@ -56,7 +57,7 @@
                     </div>
 
                     <div class="group-container">
-                        <div class="group-data">
+                        <div class="group-data" id="password-data">
                             <label for="pwd">PASSWORD</label>
                             <input id="pwd" type="password" name="userpassword" minlength="8" maxlength="20" required>
                             <p>Must contain 8-20 characters</p>
@@ -71,7 +72,7 @@
             </div>
         </div>
         <div id="account-container">
-            <button id="submit-btn" type="submit" form="signupform">Create Account</button>
+            <button id="submit-btn" type="submit" form="signupform" onclick="return Validate()">Create Account</button>
             <p id="login-primary">Already have an account? <a id="login-secondary" href="#">Log In</a></p>
         </div>
     </div>
