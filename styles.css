@@ -139,6 +139,8 @@ form {
 input {
     width: 15vw;
     height: 3vh;
+    border: solid 2px #E5E7EB;
+    border-radius: 7px;
 }
 
 #form-container>p {
@@ -168,10 +170,10 @@ label {
     border-style: none;
     color: white;
     background-color: #0047ab;
-    font-size: 0.9rem;
+    font-size: 1.1rem;
     font-weight: bold;
-    width: 12vw;
-    height: 5vh;
+    width: 14vw;
+    height: 6vh;
 }
 
 #submit-btn:hover {
