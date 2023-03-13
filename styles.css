@@ -128,8 +128,13 @@ form {
 
 .group-container {
     display: flex;
-    justify-content: space-between;
     margin-top: 15px;
+}
+
+#firstname,
+#email,
+#pwd {
+    margin-right: 50px;
 }
 
 .group-data {
