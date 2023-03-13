@@ -28,7 +28,7 @@
         </div>
         <div id="form-bg">
             <div id="form-container">
-                <p>Let's get started!</p>
+                <p id="form-heading-text">Let's do it!</p>
                 <form action="" method="get" id="signupform">
                     <div class="group-container">
                         <div class="group-data">
@@ -45,22 +45,26 @@
                         <div class="group-data">
                             <label for="email">EMAIL</label>
                             <input id="email" type="email" name="useremail" required>
+                            <p>Format: example@gmail.com</p>
                         </div>
                         <div class="group-data">
                             <label for="phone">PHONE NUMBER</label>
                             <input id="phone" type="tel" name="userphonenumber" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
                                 required>
+                            <p>Format: 123-456-7890</p>
                         </div>
                     </div>
 
                     <div class="group-container">
                         <div class="group-data">
                             <label for="pwd">PASSWORD</label>
-                            <input id="pwd" type="password" name="userpassword" required>
+                            <input id="pwd" type="password" name="userpassword" minlength="8" maxlength="20" required>
+                            <p>Must contain 8-20 characters</p>
                         </div>
                         <div class="group-data">
                             <label for="confirmpwd">CONFIRM PASSWORD</label>
-                            <input id="confirmpwd" type="password" name="userpassconfirm" required>
+                            <input id="confirmpwd" type="password" name="userpassconfirm" minlength="8" maxlength="20"
+                                required>
                         </div>
                     </div>
                 </form>

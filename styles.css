@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
 
 /* * {
     border: red 1px solid;
@@ -128,12 +129,19 @@ form {
 .group-container {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 1.5rem;
+    margin-top: 15px;
 }
 
 .group-data {
     display: flex;
     flex-direction: column;
+}
+
+input+p {
+    margin: 0;
+    color: gray;
+    font-family: 'Oswald', sans-serif;
+    font-size: 0.9rem;
 }
 
 input {
@@ -144,18 +152,21 @@ input {
 }
 
 input:focus {
-    border: blue 3px solid;
+    border: blue 2px solid;
     box-shadow: 0px 3px 4px gray;
 }
 
-#form-container>p {
+#form-heading-text {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     margin-bottom: 1.5rem;
 }
 
+/* Input (Required) Spans Begin Here */
+
 label {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-size: 0.9rem;
 }
 
 /* Account Section Begins Here */
