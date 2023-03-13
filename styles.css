@@ -16,7 +16,7 @@ body {
     height: 100vh;
     width: 35vw;
     background: url(img/matt-benson-7NE9jk3EUKw-unsplash.jpg);
-    background-size: contain;
+    background-size: cover;
 }
 
 #main-right {
