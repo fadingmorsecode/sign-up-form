@@ -1,15 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap');
 
+/* * {
+    border: red 1px solid;
+} */
+
 body {
     display: flex;
     padding: 0;
     margin: 0;
-    overscroll-behavior: contain;
 }
 
 /* Background Section Begins Here */
 #main-left {
     position: relative;
+    height: 100vh;
+    width: 35vw;
+    background: url(img/matt-benson-7NE9jk3EUKw-unsplash.jpg);
+    background-size: contain;
 }
 
 #main-right {
@@ -20,10 +27,10 @@ body {
     background-color: #f5f2f2;
 }
 
-#bg-img {
+/* #bg-img {
     width: 35vw;
-    height: 100vh;
-}
+    height: 90vh;
+} */
 
 #cred-text {
     color: white;
@@ -33,7 +40,7 @@ body {
     position: absolute;
     text-align: center;
     width: 100%;
-    bottom: 0.5%;
+    bottom: -0.7%;
     font-size: 1rem;
 }
 
@@ -79,7 +86,8 @@ body {
 #info-text-1,
 #info-text-2,
 #submit-btn,
-#submit-btn+p {
+#submit-btn+p,
+#form-container>p {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
@@ -97,18 +105,54 @@ body {
 
 /* Form Section Begins Here */
 
-#form-container {
+#form-bg {
     background-color: #ffffff;
     height: 45vh;
     width: 100%;
     box-shadow: 0px 8px 10px gray;
 }
 
+#form-container {
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    margin-left: 3rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.group-container {
+    display: flex;
+}
+
+.group-data {
+    display: flex;
+    flex-direction: column;
+    margin-right: 5vw;
+}
+
+input {
+    width: 15vw;
+    height: 3vh;
+}
+
+form #form-container>p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3rem;
+}
+
+label {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
 /* Account Section Begins Here */
 
 #account-container {
     height: 25vh;
-    width: 100%;
+    width: auto;
     display: flex;
     flex-direction: column;
     gap: 2rem;

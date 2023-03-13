@@ -11,8 +11,6 @@
 
 <body>
     <div id="main-left">
-        <img src="img/matt-benson-7NE9jk3EUKw-unsplash.jpg" id="bg-img">
-
         <div id="logo-container">
             <img id="logo-img" src="img/rocket-02-svgrepo-com.svg">
             <p id="logo-text">COBALT</p>
@@ -28,27 +26,44 @@
                 <p id="info-text-2">Sign up now and enjoy 10% off your next purchase!</p>
             </div>
         </div>
-        <div id="form-container">
-            <p>Let's get started!</p>
-            <form>
-                <label for="firstname">FIRST NAME</label>
-                <input id="firstname" type="text" name="firstname">
+        <div id="form-bg">
+            <div id="form-container">
+                <p>Let's get started!</p>
+                <form>
+                    <div class="group-container">
+                        <div class="group-data">
+                            <label for="firstname">FIRST NAME</label>
+                            <input id="firstname" type="text" name="firstname">
+                        </div>
+                        <div class="group-data">
+                            <label for="lastname">LAST NAME</label>
+                            <input id="lastname" type="text" name="lastname">
+                        </div>
+                    </div>
 
-                <label for="lastname">LAST NAME</label>
-                <input id="lastname" type="text" name="lastname">
+                    <div class="group-container">
+                        <div class="group-data">
+                            <label for="email">EMAIL</label>
+                            <input id="email" type="email" name="useremail">
+                        </div>
+                        <div class="group-data">
+                            <label for="phone">PHONE NUMBER</label>
+                            <input id="phone" type="tel" name="userphonenumber">
+                        </div>
+                    </div>
 
-                <label for="email">EMAIL</label>
-                <input id="email" type="email" name="useremail">
-
-                <label for="phone">PHONE NUMBER</label>
-                <input id="phone" type="tel" name="userphonenumber">
-
-                <label for="pwd">PASSWORD</label>
-                <input id="pwd" type="password" name="userpassword">
-
-                <label for="confirmpwd">CONFIRM PASSWORD</label>
-                <input id="confirmpwd" type="password" name="userpassconfirm">
-            </form>
+                    <div class="group-container">
+                        <div class="group-data">
+                            <label for="pwd">PASSWORD</label>
+                            <input id="pwd" type="password" name="userpassword">
+                        </div>
+                        <div class="group-data">
+                            <label for="confirmpwd">CONFIRM PASSWORD</label>
+                            <input id="confirmpwd" type="password" name="userpassconfirm">
+                        </div>
+                    </div>
+                </form>
+            </div>
         </div>
         <div id="account-container">
             <button id="submit-btn" type="submit">Create Account</button>
