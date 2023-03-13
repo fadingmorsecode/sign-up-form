@@ -148,10 +148,6 @@ input:focus {
     box-shadow: 0px 3px 4px gray;
 }
 
-input[type="password"]:invalid {
-    border: solid 2px red;
-}
-
 #form-container>p {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.3rem;
